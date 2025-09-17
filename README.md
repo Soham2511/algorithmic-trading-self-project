@@ -30,6 +30,7 @@ The project includes:
 - **yfinance / Alpha Vantage / Binance API** for market data
 
 ## Repository Structure
+```bash
 Algorithmic-Trading-Strategy/ 
 │── data/ # Sample equity CSVs 
 │── notebooks/ # Jupyter notebooks for exploration 
@@ -41,6 +42,7 @@ Algorithmic-Trading-Strategy/
 │── results/ # PnL curves, metrics reports, screenshots 
 │── requirements.txt # Python dependencies 
 │── README.md # Project overview
+```
 
 ## Getting Started
 
