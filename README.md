@@ -36,27 +36,35 @@ The project includes:
 ## Getting Started
 
 ### 1. Clone the repository
+```bash
 git clone https://github.com/Soham2511/algorithmic-trading-self-project.git
 cd algorithmic-trading-self-project
-###2. Install dependencies
+```
+
+### 2. Install dependencies
+```bash
 Copy code
 pip install -r requirements.txt
-###3. Run a sample strategy
+```
+
+### 3. Run a sample strategy
+```bash
 Copy code
 python backtesting/sample_strategy.py
+```
 
-##Usage
+## Usage
 Add your own strategies in the strategies/ folder
 Modify data sources in data/ as per your preference
 Run backtesting scripts to evaluate strategy performance
 
-##Contributing
+## Contributing
 This is a self-learning project. Contributions are welcome in the form of:
 New strategies
 Optimization techniques
 Enhanced backtesting modules
 
-##License
+## License
 This project is licensed under the MIT License.
 
 Project by Soham Jagtap
