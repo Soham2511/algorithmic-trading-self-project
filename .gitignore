@@ -1,0 +1,35 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_save
+*.ipynb_checkpoints/
+
+# --- Environments ---
+venv/
+ENV/
+env/
+.venv/
+.env
+
+# --- VS Code ---
+.vscode/
+*.code-workspace
+
+# --- Data & Results (optional, keep sample only) ---
+data/*.csv
+!data/sample_data.csv   # keep one small sample
+results/*.png
+results/*.txt
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
