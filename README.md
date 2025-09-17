@@ -30,8 +30,17 @@ The project includes:
 - **yfinance / Alpha Vantage / Binance API** for market data
 
 ## Repository Structure
-
-
+Algorithmic-Trading-Strategy/ 
+│── data/ # Sample equity CSVs 
+│── notebooks/ # Jupyter notebooks for exploration 
+│── src/ # Python modules 
+│ │── backtest.py # Backtesting logic 
+│ │── strategy.py # Entry-exit rules 
+│ │── risk.py # Risk management, position sizing 
+│ │── dashboard.py # Streamlit dashboard 
+│── results/ # PnL curves, metrics reports, screenshots 
+│── requirements.txt # Python dependencies 
+│── README.md # Project overview
 
 ## Getting Started
 
@@ -54,15 +63,15 @@ python backtesting/sample_strategy.py
 ```
 
 ## Usage
-Add your own strategies in the strategies/ folder
-Modify data sources in data/ as per your preference
-Run backtesting scripts to evaluate strategy performance
+- Add your own strategies in the strategies/ folder
+- Modify data sources in data/ as per your preference
+- Run backtesting scripts to evaluate strategy performance
 
 ## Contributing
 This is a self-learning project. Contributions are welcome in the form of:
-New strategies
-Optimization techniques
-Enhanced backtesting modules
+- New strategies
+- Optimization techniques
+- Enhanced backtesting modules
 
 ## License
 This project is licensed under the MIT License.
